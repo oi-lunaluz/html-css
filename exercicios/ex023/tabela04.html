@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela exercicio</h1>
+    <table>
+       <caption>
+            Filmes Favoritos
+       </caption>
+       <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
+            </tr>
+       </thead>
+       <tfoot>
+        <th colspan="4" scope="row">Total</th>
+        <td>1000</td>
+       </tfoot>
+       <tbody>
+        <tr>
+            <th rowspan="3" scope="rowgroup">Mulheres</th>
+            <td>Ana Braga</td>
+            <td>Rambo</td>
+            <td>Vingadores</td>
+            <td>Barbie e a princesa da ilha</td>
+        </tr>
+        <tr>
+            <td>Bianca Sales</td>
+            <td>Hulk</td>
+            <td>Arcane</td>
+            <td>Diabo veste Prada</td>
+        </tr>
+        <tr>
+            <td>Fernanda Feliz</td>
+            <td>Big Hero</td>
+            <td>Batman</td>
+            <td>Super-Homem</td>
+        </tr>
+        <tr>
+            <th rowspan="3" scope="rowgroup">Homens</th>
+            <td>Bruno Mendes</td>
+            <td>Pantera negra</td>
+            <td>Intocaveis</td>
+            <td>O impossível</td>
+        </tr>
+        <tr>
+            <td>Daniel Lorenço</td>
+            <td>Barbie e a pop star</td>
+            <td>Bob esponja</td>
+            <td>Jogos Vorazes</td>
+        </tr>
+        <tr>
+            <td>Fabiano Mota</td>
+            <td>Toy Store</td>
+            <td>Enola Holmes</td>
+            <td>Coringa</td>
+        </tr>
+
+       </tbody>
+    </table>
+</body>
+</html>
