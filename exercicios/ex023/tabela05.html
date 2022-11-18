@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabelas</title>
+
+    <style>
+         body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .cnome {
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissão">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>37</td>
+            <td>Música</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Laura</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Modelo</td>
+        </tr>
+        <tr>
+            <td>Bianca</td>
+            <td>F</td>
+            <td>32</td>
+            <td>Padeira</td>
+        </tr>
+        <tr>
+            <td>Felicía</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Programadora</td>
+        </tr>
+        <tr>
+            <td>Joana</td>
+            <td>F</td>
+            <td>48</td>
+            <td>Cuida da casa da mãe Joana</td>
+        </tr>
+    </table>
+</body>
+</html>
